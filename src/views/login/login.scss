@@ -1,0 +1,21 @@
+$baseColor:#0967C7;
+
+
+.loginLogo{
+    width: 250px;
+    height:200px;
+};
+div{
+    .LoginBtn{
+        background-color:$baseColor;
+        color:#fff;
+    }
+    .loginbtn{
+        background-color:#09C2F0;
+        color:#fff;
+    }
+    .Loginfont{
+        color: $baseColor;
+        font-size: 16px;
+    }
+}

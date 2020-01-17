@@ -1,0 +1,77 @@
+$baseColor:#0967C7;
+
+.tatolbox{
+    background-color: #eee;
+}
+.topbox{
+    background: #0967C7;
+    padding-bottom: 20px;
+    .top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        .leftbox{
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+            margin-left: 20px;
+            .avabox{
+                height: 60px;
+                width: 60px;
+                img{
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 50%;
+                }
+            }
+            .title{
+                text-align: start;
+                color: #fff;
+                margin-left: 10px;
+                h3{
+                    margin-top: 0;
+                }
+            }
+        }
+        .topset{
+            width: 20px;
+            height: 20px;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-around;
+        .bottombox{
+            color: #fff;
+            .num{
+                padding-bottom: 10px;
+            }
+            .btombox{
+                display:flex;
+                
+                .imgbox{
+                    width: 30px;
+                    height: 30px;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                .ltitle{
+                    line-height: 30px;
+                    margin-left: 8px;
+                }
+            }
+        }
+    }
+}
+.mainbox{
+    .box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}

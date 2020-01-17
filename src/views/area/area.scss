@@ -1,0 +1,23 @@
+.area-box{
+    height: 100%;
+    width: 100%;
+    #left-box{
+        height: 100%;
+        width: 90%;
+        position: fixed;
+        overflow: hidden;
+        // background-color: tan;
+        left: 0;
+        .title{
+            line-height: 15px;
+        }
+    }
+    .right-box{
+        padding: 5px;
+        position: fixed;
+        top: 15%;
+        right: 0;
+        line-height: 20px;
+        background-color: #ccc;
+    }
+}
